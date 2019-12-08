@@ -1,6 +1,8 @@
 # python-challenge
 These four python challenges aim at parametrizing simple datastreams (e.g. Profit/Losses, Votes, Employee Data, Text in Paragraphs). 
 
+Matthew Richtmyer | 07 Dec 2019
+
 ## PyBank
 * Description:
   - Analyze basic financial records for a company. Calculate greatest increases/decreases of profits from month to month and 
@@ -9,6 +11,9 @@ These four python challenges aim at parametrizing simple datastreams (e.g. Profi
 * Approach: 
   - Input csv data using pandas. 
   - Convert pandas.Series object to a numpy array to perform arithmetic operations (including the numpy.diff function)
+
+* Code
+  - []()
 
 * Output: 
   - ![](Images/PyBank.png)
@@ -42,3 +47,13 @@ These four python challenges aim at parametrizing simple datastreams (e.g. Profi
  
 
 ## PyParagraph
+* Description:
+  - Automate description of text files
+  
+* Approach: 
+  - Read in file using with open(filename, 'r') commands
+  - Use RegEx expressions to define search pattern within text. Define pattern to search for periods/exclamation marks/question marks, followed by spaces and capital letters. This sequence will describe the sentence breaks. 
+  - Split ther resulting strings and perform simple string manipulations to provide counts needed. 
+  
+* Output:
+  - ![](Images/PyParagraph.png)
