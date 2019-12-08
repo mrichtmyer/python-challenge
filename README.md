@@ -13,11 +13,13 @@ Matthew Richtmyer | 07 Dec 2019
   - Convert pandas.Series object to a numpy array to perform arithmetic operations (including the numpy.diff function)
 
 * Code
-  - []()
+  - [PyBank Code](https://github.com/mrichtmyer/python-challenge/blob/master/PyBank/PyBank.ipynb)
 
 * Output: 
   - ![](Images/PyBank.png)
   - Conveniently output text file using sys.stdout() which converts all print() function calls to a text file
+
+
 
 ## PyPoll
 * Description: 
@@ -27,6 +29,9 @@ Matthew Richtmyer | 07 Dec 2019
   - Input csv data into a DataFrame using pandas
   - Combine similar results using the df.groupby() function, allowing for simple aggregation of voting distributions across candidates
   - Convert groupby object into a dictionary to be able to iterate through and capture key/value pairs. Pull number of votes corresponding to each candidate and store these in a list for basic arithmetic manipulation (e.g. max, percentage of votes)
+  
+* Code:
+  - [PyPoll Code](https://github.com/mrichtmyer/python-challenge/blob/master/PyPoll/PyPoll.ipynb)
   
 * Output: 
   - ![](Images/PyPoll.png)
@@ -42,6 +47,9 @@ Matthew Richtmyer | 07 Dec 2019
   - Create a new DataFrame from a dictionary (keys - column names, values - lists of ammended strings)
   - Output DataFrame as csv file
 
+* Code:
+  - [PyBoss Code](https://github.com/mrichtmyer/python-challenge/blob/master/PyBoss/PyBoss.ipynb)
+  
 * Output: 
   - ![](Images/PyBoss.png)
  
@@ -54,6 +62,10 @@ Matthew Richtmyer | 07 Dec 2019
   - Read in file using with open(filename, 'r') commands
   - Use RegEx expressions to define search pattern within text. Define pattern to search for periods/exclamation marks/question marks, followed by spaces and capital letters. This sequence will describe the sentence breaks. 
   - Split ther resulting strings and perform simple string manipulations to provide counts needed. 
+  
+* Code:
+  - [PyParagraph Code](https://github.com/mrichtmyer/python-challenge/blob/master/PyParagraph/PyParagraph.ipynb)
+  
   
 * Output:
   - ![](Images/PyParagraph.png)
